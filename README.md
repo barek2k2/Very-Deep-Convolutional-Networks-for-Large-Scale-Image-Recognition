@@ -1,4 +1,4 @@
-# Instructions to setup environment and how to train the model
+# Environment Setup and Model Training Instructions
 `git clone git@github.com:barek2k2/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition.git`
 
 `cd Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition`
@@ -10,6 +10,8 @@
 `python3 train.py -v validation`
 
 ### The trained images were downloaded from Tiny Imagenet http://cs231n.stanford.edu/tiny-imagenet-200.zip
+
+#### Also you can check the other CNN at https://github.com/barek2k2/deep_learning_cnn on a smaller context(10 Classes only)
 
 # Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition
 
