@@ -1,5 +1,9 @@
+# Instructions to train the model
+`python3 fix_validation.py`
 
+`python3 -m pip install -r requirements.txt`
 
+`python3 train.py -v validation`
 
 # Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition
 
