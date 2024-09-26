@@ -5,6 +5,8 @@
 
 `python3 train.py -v validation`
 
+### The trained images were downloaded from Tiny Imagenet http://cs231n.stanford.edu/tiny-imagenet-200.zip
+
 # Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition
 
 This project work is a implementation of [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf) in Pytorch. 
