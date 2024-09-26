@@ -16,6 +16,7 @@ import torch.optim as optim
 import scikitplot
 import shutil
 import pickle
+import sys
 
 def get_args():
     parser = argparse.ArgumentParser("""Very Deep Convolutional Networks for Large Scale Image Recognition""")
@@ -51,14 +52,14 @@ def train(opt):
         path_v = 'results/VdcnnIR_val_{}.txt'.format(opt.depth)
     if os.path.exists(path_t):
         os.remove(path_t)
-        os.mknod(path_t)
+        open_path(path_t)
     else:
-        os.mknod(path_t)
+        open_path(path_t)
     if os.path.exists(path_v):
         os.remove(path_v)
-        os.mknod(path_v)
+        open_path(path_v)
     else:
-        os.mknod(path_v)
+        open_path(path_v)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     if opt.conv1_1 and opt.depth==16:
         model = Vgg(num_channels=num_channels,num_classes=classes,depth=opt.depth, initialize_weights=True,
@@ -188,6 +189,9 @@ def train(opt):
         with open('results/losses_{}'.format(opt.depth), 'wb') as f:
             pickle.dump(losses, f)
     return best_score
+
+def open_path(path):
+    return open(path, 'w') if sys.platform == 'darwin' else os.mknod(path)
 
 if __name__ == '__main__':
     opt = get_args()
