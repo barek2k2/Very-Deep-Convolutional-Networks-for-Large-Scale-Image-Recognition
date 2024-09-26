@@ -1,4 +1,8 @@
 # Instructions to train the model
+`git clone git@github.com:barek2k2/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition.git`
+
+`cd Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition`
+
 `python3 fix_validation.py`
 
 `python3 -m pip install -r requirements.txt`
