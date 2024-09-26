@@ -1,4 +1,4 @@
-# Instructions to train the model
+# Instructions to setup environment and how to train the model
 `git clone git@github.com:barek2k2/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition.git`
 
 `cd Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition`
