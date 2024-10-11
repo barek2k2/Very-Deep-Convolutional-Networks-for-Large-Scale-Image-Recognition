@@ -12,6 +12,8 @@
 ### The trained images were downloaded from Tiny Imagenet http://cs231n.stanford.edu/tiny-imagenet-200.zip
 ### Trained model can be downloaded from https://drive.google.com/file/d/1MbEAjHZaHjbyL7ea418T0j0khXnwS23_/view?usp=sharing
 
+In order to classify unseen image like cat.jpeg,  download the zip file above and extract it in the roor directory and then run the predict script.
+
 #### Also you can check the other CNN at https://github.com/barek2k2/deep_learning_cnn on a smaller context(10 Classes only)
 
 # Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition
