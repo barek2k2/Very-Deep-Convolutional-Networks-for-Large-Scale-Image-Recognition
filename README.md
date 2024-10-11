@@ -10,6 +10,7 @@
 `python3 train.py -v validation`
 
 ### The trained images were downloaded from Tiny Imagenet http://cs231n.stanford.edu/tiny-imagenet-200.zip
+### Trained model can be downloaded from https://drive.google.com/file/d/1MbEAjHZaHjbyL7ea418T0j0khXnwS23_/view?usp=sharing
 
 #### Also you can check the other CNN at https://github.com/barek2k2/deep_learning_cnn on a smaller context(10 Classes only)
 
